@@ -1,0 +1,25 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+#t{
+    background-color:blue;
+}
+#home{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrfVvIlLb0jOKGcmfqMWVziY0PVoPAChCHyA&s");
+    background-repeat:no-repeat;
+    background-size: cover;
+    width:100px;
+    height:100px;
+    position:absolute;
+    left:1338px;
+    top:710px;
+  }
